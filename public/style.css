@@ -1,0 +1,163 @@
+/* 
+Nathan Liang
+Pretty Qualtrics CSS
+*/
+
+/* GLOBAL CSS */
+/* :styles: typography */
+* {
+  font-family: "Helvetica Neue" !important;
+  color: black;
+  line-height: 1 !important; /* Condense lines */
+}
+
+/* :styles: white text on next button */
+input#NextButton.NextButton.Button {
+  color: white !important;
+}
+
+/* :styles: captcha placement */
+.captcha-wrapper {
+  text-align: center !important;
+}
+
+/* :styles: line break between questions */
+.Separator {
+  background-color: #525252;
+  display: block;
+  unicode-bidi: isolate;
+  height: 2px;
+  margin: 20px 0px 20px !important; /* Compensate for height */
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  width: 90%; /* 100% is a little excessive */
+}
+
+/* QUESTION: MULTIPLE CHOICE */
+/* :styles: separates response buttons */
+table.ChoiceStructure {
+  border-collapse: separate !important;
+  border-spacing: 2rem 0px !important;
+}
+
+/* :styles: answer font size */
+label.MultipleAnswer,
+label.SingleAnswer > span {
+  font-size: 11pt !important;
+}
+
+/* :styles: increase space below vertical answers */
+.labels-container {
+  padding-bottom: 35px !important;
+}
+
+/* :styles: rounds response outlines */
+.LabelPositionBELOW,
+label.ChoiceTextPositionLeft {
+  border-radius: 0.25rem !important;
+}
+
+/* :styles: reduce label radio separation */
+.LabelPositionBELOW {
+  height: 100px !important;
+  border: 0 !important;
+}
+
+/* :styles: reduce radio bottom margin */
+.Skin .MAHR td label.q-checkbox,
+.Skin .SAHR td label.q-radio {
+  bottom: 15px !important;
+}
+
+/* Selected box should always have rounded corners */
+td.LabelContainer {
+  border-radius: 0.25rem !important;
+}
+
+td.LabelContainer.q-checked:hover {
+  background-color: #c4ddf5 !important;
+}
+
+.Skin label.q-radio {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.Skin label.q-radio:hover {
+  border-color: #2b82d7;
+}
+
+/* :styles: removes animation for horizontal answers on click */
+.Skin label.q-radio.q-checked {
+  -webkit-animation: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  animation: none !important;
+}
+
+/* :styles: round and fatten the checkmark icon */
+.q-radio svg {
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 0.125rem;
+  height: 105%;
+  width: 105%;
+}
+
+/* :styles: transparent background default */
+.Skin label.MultipleAnswer,
+.Skin label.SingleAnswer {
+  background-color: transparent !important;
+}
+
+/* :styles: light background highlight on click */
+.Skin label.MultipleAnswer.q-checked,
+.Skin label.SingleAnswer.q-checked {
+  background-color: #deecfa !important;
+}
+
+/* :styles: removes animation for vertical answers on click */
+.Skin label.MultipleAnswer > span::before,
+.Skin label.SingleAnswer > span::before {
+  -webkit-animation: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  animation: none !important;
+  margin-top: -10px;
+}
+
+/* :styles: set svg checkmark as background */
+.Skin label.q-checkbox.q-checked,
+.Skin label.q-checkbox.q-checked.q-focused,
+.Skin label.MultipleAnswer.q-checked > span::before,
+.Skin label.SingleAnswer.q-checked > span::before,
+.Skin label.SingleAnswer.q-checked.q-focused > span::before {
+  background: #0b6ed0
+    url(https://raw.githubusercontent.com/1nathanliang/pretty-qualtrics/41cee0e652721d4630db4e39fbcb00af87e89b71/check.svg?token=AIWHPHJVFRP4QTSFHHRUFU3GCG5Y6)
+    no-repeat center center !important;
+}
+
+/* :styles: manually decrease width of vertical answers */
+.Skin .MC .QuestionBody ul.ChoiceStructure {
+  margin-right: 75%;
+  min-width: 250px;
+}
+
+/* QUESTION: TEXT ENTRY */
+/* :styles: input text box appearance */
+.InputText {
+  border-radius: 5px !important;
+  color: #000 !important;
+  font-size: 11pt !important;
+  background-color: #f2f2f2 !important;
+}
+
+/* :styles: input text box darken on hover */
+.InputText:hover {
+  background-color: #e9e9e9 !important;
+}
