@@ -35,7 +35,7 @@ input#NextButton.NextButton.Button {
   overflow: hidden;
   border-style: inset;
   border-width: 1px;
-  width: 90%; /* 100% is a little excessive */
+  width: 100%;
 }
 
 /* QUESTION: MULTIPLE CHOICE */
@@ -138,7 +138,7 @@ td.LabelContainer.q-checked:hover {
 .Skin label.SingleAnswer.q-checked > span::before,
 .Skin label.SingleAnswer.q-checked.q-focused > span::before {
   background: #0b6ed0
-    url(https://raw.githubusercontent.com/1nathanliang/pretty-qualtrics/41cee0e652721d4630db4e39fbcb00af87e89b71/check.svg?token=AIWHPHJVFRP4QTSFHHRUFU3GCG5Y6)
+    url(https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.0/public/check.svg)
     no-repeat center center !important;
 }
 
