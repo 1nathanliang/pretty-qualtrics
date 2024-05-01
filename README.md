@@ -27,8 +27,8 @@ survey HTML header. Navigate to `Look and Feel > General > Header > edit`, then 
 rich text editor to edit the content of the header in raw HTML. Then, you can paste the following two lines:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics/scripts/script.min.js"></script>
-<link href="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics/public/style.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics/scripts/flat-script.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics/public/flat-style.min.css" rel="stylesheet" />
 ```
 
 ...and that's it! Please note that you should specify a package version number including `@x.y.z` in the links 
@@ -36,6 +36,6 @@ above corresponding to `major.minor.patch` in the [releases](https://github.com/
 For example, to specify the current version, use `@0.0.2`:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.0/scripts/script.min.js"></script>
-<link href="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.0/public/style.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.2/scripts/flat-script.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.2/public/flat-style.min.css" rel="stylesheet" />
 ```
