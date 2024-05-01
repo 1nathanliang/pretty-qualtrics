@@ -20,7 +20,7 @@ I will be actively adding cosmetic modifications to the `Simple` design as a con
 
 ## Instructions
 
-To ✨prettify✨ your `Flat` Qualtrics survey, you'll simply need to import my custom CSS and JS into your 
+To **✨prettify✨** your `Flat` Qualtrics survey, you'll simply need to import my custom CSS and JS into your 
 survey HTML header. Navigate to `Look and Feel > General > Header > edit`, then press `Source` button in the
 rich text editor to edit the content of the header in raw HTML. Then, you can paste the following two lines:
 
