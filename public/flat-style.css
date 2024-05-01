@@ -45,6 +45,11 @@ table.ChoiceStructure {
   border-spacing: 2rem 0px !important;
 }
 
+/* :styles: initializes invisible answer box border */
+td.LabelContainer {
+  border: 2.5px solid transparent;
+}
+
 /* :styles: answer font size */
 label.MultipleAnswer,
 label.SingleAnswer > span {
