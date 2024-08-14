@@ -33,9 +33,9 @@ rich text editor to edit the content of the header in raw HTML. Then, you can pa
 
 ...and that's it! Please note that you should specify a package version number including `@x.y.z` in the links 
 above corresponding to `major.minor.patch` in the [releases](https://github.com/1nathanliang/pretty-qualtrics/releases). 
-For example, to specify the current version, use `@0.0.2`:
+For example, to specify the current version, use `@0.0.0`:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.2/scripts/flat-script.min.js"></script>
-<link href="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.2/public/flat-style.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.0/scripts/flat-script.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.0/public/flat-style.min.css" rel="stylesheet" />
 ```
