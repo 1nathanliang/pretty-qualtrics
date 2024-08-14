@@ -1,0 +1,27 @@
+/* <script src="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.2/scripts/flat-script.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics@0.0.2/public/flat-style.min.css" rel="stylesheet" /> */
+
+/* 
+Nathan Liang
+Pretty Qualtrics CSS
+*/
+
+/* GLOBAL CSS */
+/* :styles: typography */
+* {
+  font-family: "Helvetica Neue" !important;
+  line-height: 1.15 !important; /* Condense lines */
+}
+
+/* :styles: captcha placement */
+.captcha-wrapper {
+  text-align: center !important;
+}
+
+.slider .slider-labels {
+  padding-inline-end: 0 !important;
+}
+
+.slider .slider-labels .slider-label {
+  text-align: center;
+}

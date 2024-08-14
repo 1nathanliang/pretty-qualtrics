@@ -144,14 +144,8 @@ td.LabelContainer.q-checked:hover {
 .Skin label.SingleAnswer.q-checked.q-focused > span::before {
   border: 2px solid #0b6ed0 !important;
   background: #0b6ed0
-    url(https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics/public/check.svg)
+    url("https://cdn.jsdelivr.net/gh/1nathanliang/pretty-qualtrics/public/check.svg")
     no-repeat center center !important;
-}
-
-/* :styles: manually decrease width of vertical answers */
-.Skin .MC .QuestionBody ul.ChoiceStructure {
-  margin-right: 75%;
-  min-width: 250px;
 }
 
 /* QUESTION: TEXT ENTRY */
